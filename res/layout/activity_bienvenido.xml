@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".BienvenidoActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido_bienvenido"
+        android:textSize="@dimen/bienvenido_bienvenido" 
+        android:gravity="center"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*" 
+        >
+
+        <TableRow
+            android:padding="@dimen/bienvenido_relleno_fila"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bienvenido_nombre" 
+                android:gravity="right"
+                android:layout_marginRight="@dimen/bienvenido_mrg_drch"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/bienvenido_lbl_nombre"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow 
+            android:padding="@dimen/bienvenido_relleno_fila"
+            >
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bienvenido_apellido"
+                android:gravity="right"
+                android:layout_marginRight="@dimen/bienvenido_mrg_drch"
+                android:textStyle="bold"
+                />
+            <TextView 
+                android:id="@+id/bienvenido_lbl_apellido"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        
+        <TableRow 
+            android:padding="@dimen/bienvenido_relleno_fila"
+            >
+            
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bienvenido_usuario"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/bienvenido_mrg_drch"
+                android:textStyle="bold"
+                />
+            
+            <TextView 
+                android:id="@+id/bienvenido_lbl_usuario"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

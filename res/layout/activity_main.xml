@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".MainActivity" >
+	
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_titulo"
+        android:textSize="@dimen/login_titulo"
+        android:layout_marginBottom="40sp"
+        android:gravity="center"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_usuario"
+        />
+    
+    <EditText 
+        android:id="@+id/login_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_contrasena"
+        />
+    
+    <EditText 
+        android:id="@+id/login_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     	/>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    >
+	   	<Button 
+	   	    android:id="@+id/login_btn_ingresar"
+	   	    android:layout_width="0dp" 
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_weight="0.5"
+	   	    android:text="@string/login_btn_ingresar"
+	   	    />
+	   	<Button 
+	   	    android:id="@+id/login_btn_registrar"
+	   	    android:layout_width="0dp"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_weight="0.5"
+	   	    android:text="@string/login_btn_registrar"
+	   	    />
+	</LinearLayout>
+</LinearLayout>

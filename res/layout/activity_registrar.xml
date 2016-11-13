@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    tools:context=".RegistrarActivity" >
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_titulo"
+        android:textSize="@dimen/registrar_titulo"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_cedula"
+        android:layout_marginTop="10dp"
+        />
+	
+    <EditText 
+        android:id="@+id/registrar_cedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_nombre"
+        />
+    <EditText 
+        android:id="@+id/registrar_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_apellidos"
+        />
+    
+    <EditText 
+        android:id="@+id/registrar_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_usuario"
+        />
+    <EditText 
+        android:id="@+id/registrar_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar_contrasena"
+        />
+    <EditText 
+        android:id="@+id/registrar_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <Button 
+            android:id="@+id/registrar_btn_guardar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/registrar_btn_guardar"
+            />
+        <Button 
+            android:id="@+id/registrar_btn_regresar"
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/registrar_btn_regresar"
+            />
+    </LinearLayout>
+</LinearLayout>

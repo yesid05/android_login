@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	
+    <dimen name="login_titulo">20sp</dimen>
+    
+    <dimen name="registrar_titulo">20sp</dimen>
+    
+    <dimen name="bienvenido_bienvenido">30sp</dimen>
+    <dimen name="bienvenido_mrg_drch">5dp</dimen>
+    <dimen name="bienvenido_relleno_fila">10dp</dimen>
+    
+</resources>
